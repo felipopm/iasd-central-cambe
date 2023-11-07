@@ -8,7 +8,6 @@ function Sentinela(){
         <>
             <Header />
             <Container>
-                <h1>Sentinela</h1>
                 <section className={styles.temas}>
                     <button>VOLTA DE JESUS</button>
                     <button>APOCALIPSE</button>

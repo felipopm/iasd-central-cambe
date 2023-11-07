@@ -4,7 +4,14 @@ import styles from './Container.module.css'
 function Container({ children }) {
     return(
         <section className={styles.container}>
+            <div className={styles.pesquisa}>
+              <input className={styles.pergunte}
+              type="search" 
+              placeholder='Pergunte algo?' />
+            </div>
+
             { children }
+            
         </section>
     );
 }

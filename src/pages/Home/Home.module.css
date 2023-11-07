@@ -9,7 +9,7 @@
     border: 1px solid blue;
 }
 
-.home input {
+/* .home input {
     width: 150px;
     height: 35px;
     background-color: var(--primaria);
@@ -20,4 +20,4 @@
 
 .home input:hover {
     background-color: var(--secundaria);
-}
+} */

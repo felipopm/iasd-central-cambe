@@ -12,3 +12,16 @@
     border: 1px solid red;
 
 }
+
+.pergunte {
+    width: 150px;
+    height: 35px;
+    background-color: var(--primaria);
+    border: 1px solid var(--tercearia);
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.pergunte:hover {
+    background-color: var(--secundaria);
+}

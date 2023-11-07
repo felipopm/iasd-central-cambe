@@ -19,9 +19,13 @@ function Home(){
               <h1>Como ter um relacionamento com Deus?</h1>
               <h1>Quem é Deus?</h1>
             </div> */}
-            <div className={styles.pesquisa}>
-              <input type="search" placeholder='Pergunte algo?' />
-            </div>
+
+            {/* <div className={styles.pesquisa}>
+              <input 
+              type="search" 
+              placeholder='Pergunte algo?' />
+            </div> */}
+
           </section>
         </Container>
         <Footer />
