@@ -6,6 +6,7 @@ import Farol from "./pages/Farol";
 import Sal from "./pages/Sal";
 import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
+import Page404 from "./pages/Page404";
 
 
 function AppRoutes() {
@@ -19,6 +20,7 @@ function AppRoutes() {
                 <Route path="/sal" element={<Sal />}></Route>
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/sobre" element={<Sobre />}></Route>
+                <Route path="*" element={<Page404 />}></Route>
             </Routes>
         </BrowserRouter>
     );
