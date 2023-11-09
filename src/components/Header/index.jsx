@@ -4,8 +4,15 @@ import iasd from './images/iasd-um.png'
 import farol from './images/farol.png'
 import sal from './images/saleiro.png'
 import { Link } from "react-router-dom"
+import { useState } from "react"
 
 function Header() {
+
+    const [ showMenu, setShowMenu ] = useState(false)
+    const toggleMenu = () => {
+        setShowMenu(!showMenu)
+    }
+
     return(
         <header className={styles.header}>
             <nav className={styles.ajuda}>
@@ -13,7 +20,7 @@ function Header() {
                     <button>AJUDA</button>
                 </Link>
             </nav>
-            <figure className={styles.paginas_um}>
+            <figure className={styles.paginas}>
                 <Link to="/sentinela">
                     <img src={sentinela} alt="sentinela" />
                 </Link>
@@ -27,12 +34,22 @@ function Header() {
                     <img src={sal} alt="sal" />
                 </Link>
             </figure>
-            <nav className={styles.paginas_dois}>
+            <nav 
+                className={`${styles.menuSandwich} ${ showMenu ? styles.show : ''}`}
+            >
                 <Link to="/">Home</Link>
+                <a 
+                href="https://igrejas.adventistas.org/" 
+                target="_blank" 
+                rel="noreferrer"
+                >Encontre uma igreja</a>
                 <Link to="/sobre">Sobre</Link>
-                <a href="https://igrejas.adventistas.org/" target="_blank" rel="noreferrer">Encontre uma igreja</a>
+                <Link to="/estou">Como estou</Link>
             </nav>
-            <div className={styles.menuButton}>
+            <div 
+                className={styles.menuButton}
+                onClick={toggleMenu}
+            >
                 <span className={styles.linha}></span>
                 <span className={styles.linha}></span>
                 <span className={styles.linha}></span>
