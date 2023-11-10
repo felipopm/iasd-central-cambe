@@ -1,10 +1,12 @@
 .abordagem {
     display: flex;
     width: 100%;
+    height: auto;
     margin-bottom: 2px;
     justify-content: center;
+    flex-direction: column;
 
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .tema {
@@ -18,13 +20,13 @@
 }
 
 .comabordagem{
-    width: 500px;
+    width: auto;
     height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 }
 
 .semabordagem {
@@ -43,6 +45,30 @@
 
 .superficial:hover, .profundo:hover {
     background-color: var(--secundaria);
+}
 
+.comassunto {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 30px;
+
+    border: 1px solid blue;
+}
+
+.semassunto {
+    display: none;
+}
+
+iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
