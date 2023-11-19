@@ -13,7 +13,7 @@
     cursor: pointer;
     border: 1px solid var(--tercearia);
     width: 25px;
-    height: 25px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@
 
 .comabordagem{
     width: auto;
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;

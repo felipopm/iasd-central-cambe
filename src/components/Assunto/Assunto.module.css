@@ -1,0 +1,11 @@
+.assunto {
+    display: flex;
+    flex-direction: column;
+}
+
+.assunto div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
