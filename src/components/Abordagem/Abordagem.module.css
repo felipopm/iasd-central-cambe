@@ -1,4 +1,4 @@
-.abordagem {
+.tema {
     display: flex;
     width: 100%;
     height: auto;
@@ -9,7 +9,7 @@
     border: 1px solid red;
 }
 
-.tema {
+.abordagem {
     cursor: pointer;
     border: 1px solid var(--tercearia);
     width: 25px;
@@ -47,7 +47,7 @@
     background-color: var(--secundaria);
 }
 
-.comassunto {
+.comsuperficial, .comprofundo {
     width: auto;
     height: auto;
 
@@ -61,7 +61,7 @@
     border: 1px solid blue;
 }
 
-.semassunto {
+.semsuperficial, .semprofundo{
     display: none;
 }
 
