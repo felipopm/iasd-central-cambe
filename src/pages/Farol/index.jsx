@@ -2,8 +2,8 @@ import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 import Container from '../../components/Container'
 import styles from './Farol.module.css'
-import videos from "../../json/db.json";
 import VideoItem from "../../components/Card";
+import videos from "../../json/db.json";
 
 function Farol(){
 

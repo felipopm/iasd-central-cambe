@@ -2,19 +2,24 @@ import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 import Container from '../../components/Container'
 import styles from './Sal.module.css'
+import VideoItem from "../../components/Card";
+import videos from "../../json/db.json";
 
 function Sal(){
+
+    // Filtrar por categoria "Sentinela"
+    const salAssuntos = videos.filter((item) => item.category === "Sal").map((video, index) => <VideoItem key={index} video={video} index={index} />
+    );
+
     return(
         <>
             <Header />
             <Container>
-                <h1>Sal</h1>
                 <section className={styles.temas}>
-                    <button>MÚSICA</button>
-                    <button>RELACIONAMENTOS</button>
-                    <button>AMOR</button>
-                    <button>MINHA MELHOR VERSÃO?</button>
-                    <button>?</button>
+
+                    <h2>Sal</h2>
+                    <ul>{salAssuntos}</ul>
+                    
                 </section>
             </Container>
             <Footer />

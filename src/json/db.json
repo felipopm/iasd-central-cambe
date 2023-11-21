@@ -145,6 +145,72 @@
         "url": "https://www.youtube.com/watch?v=hZHw9AxhRFs",
         "assunto": "Perdido",
         "category": "Farol"
+    },
+
+
+    {
+        "id": "U6zeXB_cdes",
+        "title": "LIVE como tocar SONDA-ME no violão - Daniel Lüdtke (aula de violão)",
+        "cover": "https://img.youtube.com/vi/U6zeXB_cdes/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=U6zeXB_cdes",
+        "assunto": "Música",
+        "category": "Sal"
+    },
+    {
+        "id": "KK2hZj5cYJo",
+        "title": "Meu Pastor - Adoradores (aula de violão)",
+        "cover": "https://img.youtube.com/vi/KK2hZj5cYJo/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=KK2hZj5cYJo",
+        "assunto": "Música",
+        "category": "Sal"
+    },
+    {
+        "id": "MpjKikNz4oU",
+        "title": "O suicida vai se perder?",
+        "cover": "https://img.youtube.com/vi/MpjKikNz4oU/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=MpjKikNz4oU",
+        "assunto": "Relacionamento",
+        "category": "Sal"
+    },
+    {
+        "id": "Atra-Va7xaw",
+        "title": "A Pessoa Certa - Parte 1 - Darleide Alves",
+        "cover": "https://img.youtube.com/vi/Atra-Va7xaw/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=Atra-Va7xaw",
+        "assunto": "Relacionamento",
+        "category": "Sal"
+    },
+    {
+        "id": "O3rYlzTi0Ss-k",
+        "title": "APRENDENDO A AMAR | Dr. Rodrigo Silva | Igreja Unasp SP |",
+        "cover": "https://img.youtube.com/vi/O3rYlzTi0Ss-k/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=O3rYlzTi0Ss-k",
+        "assunto": "Amor",
+        "category": "Sal"
+    },
+    {
+        "id": "wgCJmB1GnOs",
+        "title": "MARCOS EBERLIN + RODRIGO SILVA ARQUEOLOGIA - Flow #191",
+        "cover": "https://img.youtube.com/vi/wgCJmB1GnOs/mqdefault.jpg",
+        "url": "https://www.youtube.com/live/wgCJmB1GnOs?si=BnZtDLPKNh8EzEzR&t=15908",
+        "assunto": "Amor",
+        "category": "Sal"
+    },
+    {
+        "id": "PChr3FQTNb4",
+        "title": "3 Livros Para seu Crescimento Pessoal e Espiritual - Leandro Quadros",
+        "cover": "https://img.youtube.com/vi/PChr3FQTNb4/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=PChr3FQTNb4",
+        "assunto": "Crescimento",
+        "category": "Sal"
+    },
+    {
+        "id": "F8rJ97dFg5c",
+        "title": "Como CONHECER a VONTADE DE DEUS para sua vida? Veja estas dicas! - Leandro Quadros",
+        "cover": "https://img.youtube.com/vi/F8rJ97dFg5c/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=F8rJ97dFg5c",
+        "assunto": "Crescimento",
+        "category": "Sal"
     }
 
 
