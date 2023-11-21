@@ -1,4 +1,4 @@
-.tema {
+/* .tema {
     display: flex;
     width: 100%;
     height: auto;
@@ -6,7 +6,7 @@
     justify-content: center;
     flex-direction: column;
 
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .abordagem {
@@ -25,7 +25,7 @@
     justify-content: center;
     gap: 15px;
 
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 }
 
 .semabordagem {
@@ -57,7 +57,7 @@
 
     margin-top: 30px;
 
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 }
 
 .semsuperficial, .semprofundo{
@@ -70,4 +70,4 @@ iframe {
     justify-content: center;
     gap: 1rem;
 }
-
+ */

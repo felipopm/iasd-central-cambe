@@ -1,13 +1,13 @@
-import styles from "./Abordagem.module.css"
+// import styles from "./Abordagem.module.css"
 
-// eslint-disable-next-line react/prop-types
-function Abordagem() {
+// // eslint-disable-next-line react/prop-types
+// function Abordagem() {
 
-    return (
-        <section className={styles.tema}>
+//     return (
+//         <section className={styles.tema}>
 
-        </section>
-    );
-}
+//         </section>
+//     );
+// }
 
-export default Abordagem
+// export default Abordagem
