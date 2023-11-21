@@ -2,26 +2,79 @@ import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 import Container from '../../components/Container'
 import styles from './Sentinela.module.css'
-import Abordagem from "../../components/Abordagem";
-// import { useState } from "react";
+import { useState } from "react";
+// import Card from "../../components/Card";
+import videos from "../../json/db.json";
+import PropTypes from "prop-types";
 
-function Sentinela(){
+// Componente de Vídeo
+const VideoItem = ({ video, index }) => (
+    <li key={index}>
+        <a href={video.url} target="_blank" rel="noopener noreferrer">
+            <img src={video.cover} alt="Capa" />
+        </a>
+        <div>
+            <h3>{video.title}</h3>
+            <p>{video.assunto} | {video.category}</p>
+        </div>
+    </li>
+);
 
-    return(
+VideoItem.propTypes = {
+    video: PropTypes.shape({
+        url: PropTypes.string.isRequired,
+        cover: PropTypes.string.isRequired,
+        title: PropTypes.string.isRequired,
+        assunto: PropTypes.string.isRequired,
+        category: PropTypes.string.isRequired,
+    }).isRequired,
+    index: PropTypes.number.isRequired,
+};
+
+// eslint-disable-next-line react/prop-types
+function Sentinela() {
+
+    // Filtrar por categoria "Sentinela"
+    const sentinelaAssuntos = videos.filter(item => item.category === "Sentinela").map((video, index) =>
+            <VideoItem key={index} video={video} index={index} />
+    );
+
+    const [semAbordagem, setSemAbordagem] = useState(true)
+    const toggleAbordagem = () => { setSemAbordagem(!semAbordagem) }
+
+    // const [ semSuperficial, setSemSuperficial ] = useState(true)
+    // const toggleSuperficial = () => { setSemSuperficial(!semSuperficial) }
+    // const [ semProfundo, setSemProfundo ] = useState(true)
+    // const toggleProfundo = () => { setSemProfundo (!semProfundo) }
+
+    return (
         <>
             <Header />
             <Container>
                 <section className={styles.temas}>
-                            
-                    <Abordagem />
-                    {/* <h3>Apocalipse</h3>
-                    <Abordagem />
-                    <h3>Política</h3>
-                    <Abordagem />
-                    <h3>Cultura</h3>
-                    <Abordagem />
-                    <h3>Religião</h3>
-                    <Abordagem /> */}
+
+                    <div className={styles.comabordagem}>
+                        <button className={styles.superficial}>Superficial</button>
+                        <button className={styles.profundo}>Profundo</button>
+                    </div>
+
+                    <span className={`${styles.abordagem}`} onClick={toggleAbordagem}>V</span>
+
+                    <h2>Sentinela</h2>
+                    <ul>{sentinelaAssuntos}</ul>
+
+
+                    {/* <div className={`${styles.comabordagem} ${semAbordagem ? styles.semabordagem : ''}`}>
+                        {assuntos.map((assunto, index) =>
+                            // eslint-disable-next-line react/jsx-key
+                            <Assunto assunto={assunto}>
+                                {filterAssunto(index).map((video) => <Card id={video.id} key={video.id} title={video.title} />)}
+                            </Assunto>
+                        )}
+                    </div>
+
+                    {children} */}
+
                 </section>
             </Container>
             <Footer />
@@ -29,4 +82,4 @@ function Sentinela(){
     );
 }
 
-export default Sentinela
+export default Sentinela;

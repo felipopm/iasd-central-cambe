@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Page404 from "./pages/Page404";
 import Estou from "./pages/Estou";
+import Teste from "./pages/Teste";
 
 
 function AppRoutes() {
@@ -23,6 +24,8 @@ function AppRoutes() {
                 <Route path="/sobre" element={<Sobre />}></Route>
                 <Route path="/estou" element={<Estou />}></Route>
                 <Route path="*" element={<Page404 />}></Route>
+                <Route path="/teste" element={<Teste />}></Route>
+
             </Routes>
         </BrowserRouter>
     );

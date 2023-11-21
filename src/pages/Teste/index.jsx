@@ -1,13 +1,11 @@
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
-import Container from '../../components/Container'
-import styles from './Farol.module.css'
 import videos from "../../json/db.json";
 import PropTypes from "prop-types";
 
 // Componente de Vídeo
+// eslint-disable-next-line react/prop-types
 const VideoItem = ({ video, index }) => (
     <li key={index}>
+        {index} -
         <a href={video.url} target="_blank" rel="noopener noreferrer">
             <img src={video.cover} alt="Capa" />
         </a>
@@ -29,7 +27,14 @@ VideoItem.propTypes = {
     index: PropTypes.number.isRequired,
 };
 
-function Farol(){
+// eslint-disable-next-line react/prop-types
+export default function Test() {
+
+    // Filtrar por categoria "Sentinela"
+    const sentinelaAssuntos = videos.filter(item => item.category === "Sentinela").map(
+        (video, index) =>
+            <VideoItem key={index} video={video} index={index} />
+    );
 
     // Filtrar por categoria "Farol"
     const farolAssuntos = videos.filter(item => item.category === "Farol").map(
@@ -37,21 +42,13 @@ function Farol(){
             <VideoItem key={index} video={video} index={index} />
     );
 
-    return(
+    return (
         <>
-            <Header />
-            <Container>   
-                <section className={styles.temas}>
-                    
-                    <h2>Farol</h2>
-                    <ul>{farolAssuntos}</ul>
+            <h2>Sentinela</h2>
+            <ul>{sentinelaAssuntos}</ul>
 
-                </section>
-            </Container>
-            <Footer />
+            <h2>Farol</h2>
+            <ul>{farolAssuntos}</ul>
         </>
-        
     );
 }
-
-export default Farol

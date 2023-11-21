@@ -3,7 +3,7 @@
     {
         "id": "K94FqvRf2bU",
         "title": "O que a biblia fala sobre a volta de Jesus?",
-        "cover": "https://img.www.youtube.com/vi/K94FqvRf2bU/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/K94FqvRf2bU/mqdefault.jpg",
         "url": "https://www.youtube.com/embed/K94FqvRf2bU?si=PHcQxFs_2xYKPHrf&amp;start=1332",
         "assunto": "Volta de Jesus",
         "category": "Sentinela"
@@ -11,7 +11,7 @@
     {
         "id": "Jd36eMeNDao",
         "title": "Jesus vai voltar secretamente ou todo o olho verá?",
-        "cover": "https://img.www.youtube.com/vi/Jd36eMeNDao/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/Jd36eMeNDao/mqdefault.jpg",
         "url": "https://www.youtube.com/embed/Jd36eMeNDao?si=zmPrK2BYH-4p0BRK&amp;start=2460",
         "assunto": "Volta de Jesus",
         "category": "Sentinela"
@@ -19,7 +19,7 @@
     {
         "id": "ZLMEjAkrFL0",
         "title": "Como entender o 666?",
-        "cover": "https://img.www.youtube.com/vi/ZLMEjAkrFL0/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/ZLMEjAkrFL0/mqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=ZLMEjAkrFL0",
         "assunto": "Apocalipse",
         "category": "Sentinela"
@@ -27,7 +27,7 @@
     {
         "id": "NfkmPMoR-y4",
         "title": "Jesus vai voltar secretamente ou todo o olho verá?",
-        "cover": "https://img.www.youtube.com/vi/NfkmPMoR-y4/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/NfkmPMoR-y4/mqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=NfkmPMoR-y4",
         "assunto": "Apocalipse",
         "category": "Sentinela"
@@ -35,7 +35,7 @@
     {
         "id": "vaTQscaURWQ",
         "title": "Jesus vai voltar secretamente ou todo o olho verá?",
-        "cover": "https://img.www.youtube.com/vi/vaTQscaURWQ/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/vaTQscaURWQ/mqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=vaTQscaURWQ",
         "assunto": "Política",
         "category": "Sentinela"
@@ -43,7 +43,7 @@
     {
         "id": "RKchrxapLE0",
         "title": "Como o cristão deve se relacionar com a política?",
-        "cover": "https://img.www.youtube.com/vi/RKchrxapLE0/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/RKchrxapLE0/mqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=RKchrxapLE0",
         "assunto": "Política",
         "category": "Sentinela"
@@ -51,7 +51,7 @@
     {
         "id": "9MnsnzmZrHw",
         "title": "Como a cultura nos influência?",
-        "cover": "https://img.www.youtube.com/vi/9MnsnzmZrHw/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/9MnsnzmZrHw/mqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=9MnsnzmZrHw",
         "assunto": "Cultura",
         "category": "Sentinela"
@@ -59,7 +59,7 @@
     {
         "id": "fBk99jj00_c",
         "title": "A bíblia apoia o estupro?",
-        "cover": "https://img.www.youtube.com/vi/fBk99jj00_c/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/fBk99jj00_c/mqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=fBk99jj00_c",
         "assunto": "Cultura",
         "category": "Sentinela"
@@ -67,7 +67,7 @@
     {
         "id": "f7bXR41iYpE",
         "title": "Jesus vai voltar secretamente ou todo o olho verá?",
-        "cover": "https://img.www.youtube.com/vi/f7bXR41iYpE/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/f7bXR41iYpE/mqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=f7bXR41iYpE",
         "assunto": "Religião",
         "category": "Sentinela"
@@ -75,9 +75,78 @@
     {
         "id": "DBtzZIXj2jc",
         "title": "Como saber qual é a religião verdadeira?",
-        "cover": "https://img.www.youtube.com/vi/DBtzZIXj2jc/mqdefault.jpg",
+        "cover": "https://img.youtube.com/vi/DBtzZIXj2jc/mqdefault.jpg",
         "url": "https://www.youtube.com/watch?v=DBtzZIXj2jc",
         "assunto": "Religião",
         "category": "Sentinela"
+    },
+
+
+    {
+        "id": "Ejkb_YpuHWs",
+        "title": "Curso de programação Web, HTML5 e CSS3.",
+        "cover": "https://img.youtube.com/vi/Ejkb_YpuHWs/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=Ejkb_YpuHWs",
+        "assunto": "Profissão",
+        "category": "Farol"
+    },
+    {
+        "id": "KsFLXOTflsM",
+        "title": "Curso de programação Web, React.",
+        "cover": "https://img.youtube.com/vi/KsFLXOTflsM/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=KsFLXOTflsM",
+        "assunto": "Profissão",
+        "category": "Farol"
+    },
+    {
+        "id": "MpjKikNz4oU",
+        "title": "O suicida vai se perder?",
+        "cover": "https://img.youtube.com/vi/MpjKikNz4oU/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=MpjKikNz4oU",
+        "assunto": "Suicídio",
+        "category": "Farol"
+    },
+    {
+        "id": "ths04LuLjz0",
+        "title": "Verdade absoluta existe?",
+        "cover": "https://img.youtube.com/vi/ths04LuLjz0/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=ths04LuLjz0",
+        "assunto": "Suicídio",
+        "category": "Farol"
+    },
+    {
+        "id": "1WXvdkEcN-k",
+        "title": "Como saber qual é a religião verdadeira?",
+        "cover": "https://img.youtube.com/vi/1WXvdkEcN-k/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=1WXvdkEcN-k",
+        "assunto": "Verdade",
+        "category": "Farol"
+    },
+    {
+        "id": "xzWCQwl4gnQ",
+        "title": "Tudo que está na bíblia é verdade?",
+        "cover": "https://img.youtube.com/vi/xzWCQwl4gnQ/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=xzWCQwl4gnQ",
+        "assunto": "Verdade",
+        "category": "Farol"
+    },
+    {
+        "id": "uXVwLXnvpoo",
+        "title": "Meu ente querido morreu.",
+        "cover": "https://img.youtube.com/vi/uXVwLXnvpoo/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=uXVwLXnvpoo",
+        "assunto": "Perdido",
+        "category": "Farol"
+    },
+    {
+        "id": "hZHw9AxhRFs",
+        "title": "Qual o sentido de tudo?",
+        "cover": "https://img.youtube.com/vi/hZHw9AxhRFs/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=hZHw9AxhRFs",
+        "assunto": "Perdido",
+        "category": "Farol"
     }
+
+
 ]
+
