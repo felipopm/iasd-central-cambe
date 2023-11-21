@@ -3,40 +3,13 @@ import Footer from "../../components/Footer"
 import Container from '../../components/Container'
 import styles from './Sentinela.module.css'
 import { useState } from "react";
-// import Card from "../../components/Card";
+import VideoItem from "../../components/Card";
 import videos from "../../json/db.json";
-import PropTypes from "prop-types";
 
-// Componente de Vídeo
-const VideoItem = ({ video, index }) => (
-    <li key={index}>
-        <a href={video.url} target="_blank" rel="noopener noreferrer">
-            <img src={video.cover} alt="Capa" />
-        </a>
-        <div>
-            <h3>{video.title}</h3>
-            <p>{video.assunto} | {video.category}</p>
-        </div>
-    </li>
-);
-
-VideoItem.propTypes = {
-    video: PropTypes.shape({
-        url: PropTypes.string.isRequired,
-        cover: PropTypes.string.isRequired,
-        title: PropTypes.string.isRequired,
-        assunto: PropTypes.string.isRequired,
-        category: PropTypes.string.isRequired,
-    }).isRequired,
-    index: PropTypes.number.isRequired,
-};
-
-// eslint-disable-next-line react/prop-types
 function Sentinela() {
 
     // Filtrar por categoria "Sentinela"
-    const sentinelaAssuntos = videos.filter(item => item.category === "Sentinela").map((video, index) =>
-            <VideoItem key={index} video={video} index={index} />
+    const sentinelaAssuntos = videos.filter((item) => item.category === "Sentinela").map((video, index) => <VideoItem key={index} video={video} index={index} />
     );
 
     const [semAbordagem, setSemAbordagem] = useState(true)

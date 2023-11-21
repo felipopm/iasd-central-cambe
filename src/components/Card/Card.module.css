@@ -1,7 +1,40 @@
-.link {
+/* .link {
     display: flex;
     align-items: center;
     flex-direction: column;
 
+    border: 1px solid red;
+} */
+
+.link {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-bottom: 5px;
+    padding-top: 10px;
     /* border: 1px solid red; */
+}
+
+.titulo {
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.509);
+}
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
 }
