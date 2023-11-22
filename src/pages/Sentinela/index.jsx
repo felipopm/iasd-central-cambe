@@ -24,7 +24,7 @@ function Sentinela() {
         <>
             <Header />
             <Container>
-                <section>
+                <section className={styles.sentinela}>
 
                     <div className={styles.comabordagem}>
                         <button className={styles.superficial}>Superficial</button>

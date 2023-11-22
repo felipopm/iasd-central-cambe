@@ -15,7 +15,7 @@ function Sal(){
         <>
             <Header />
             <Container>
-                <section>
+                <section className={styles.sal}>
 
                     <h2>Sal</h2>
                     <div className={styles.assuntos}>

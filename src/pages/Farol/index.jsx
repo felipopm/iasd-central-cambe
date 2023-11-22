@@ -15,7 +15,7 @@ function Farol(){
         <>
             <Header />
             <Container>   
-                <section>
+                <section className={styles.farol}>
                     
                     <h2>Farol</h2>
                     <div className={styles.assuntos}>
