@@ -15,10 +15,12 @@ function Farol(){
         <>
             <Header />
             <Container>   
-                <section className={styles.temas}>
+                <section>
                     
                     <h2>Farol</h2>
-                    <ul>{farolAssuntos}</ul>
+                    <div className={styles.assuntos}>
+                        {farolAssuntos}
+                    </div>
 
                 </section>
             </Container>

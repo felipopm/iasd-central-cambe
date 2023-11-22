@@ -24,14 +24,12 @@ import PropTypes from "prop-types";
 import styles from "./Card.module.css"
 
 const VideoItem = ({ video, index }) => (
-  <li key={index}>
+  <div className={styles.assuntos} key={index}>
     <a className={styles.link} href={video.url} target="_blank" rel="noopener noreferrer"> <img src={video.cover} alt="Capa" />
     </a>
-    <div>
       <h3 className={styles.titulo}>{video.title}</h3>
       <p>{video.assunto} | {video.category}</p>
-    </div>
-  </li>
+  </div>
 );
 
 VideoItem.propTypes = {

@@ -6,21 +6,32 @@
     border: 1px solid red;
 } */
 
+.assuntos {
+    width: 400px;
+    height: 275px;
+
+    border: 1px solid red;
+}
+
 .link {
-    width: 100%;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+
+    width: 100%;
 
     padding-bottom: 5px;
     padding-top: 10px;
-    /* border: 1px solid red; */
+
+    /* border: 1px solid blue; */
 }
 
 .titulo {
-    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     height: auto;
     background-color: white;
     margin-bottom: 5px;
@@ -31,10 +42,7 @@
 }
 p {
     display: flex;
-    align-items: center;
     justify-content: center;
-}
 
-ul {
-    list-style: none;
+    border: 1px solid green;
 }

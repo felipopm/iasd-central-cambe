@@ -15,11 +15,12 @@ function Sal(){
         <>
             <Header />
             <Container>
-                <section className={styles.temas}>
+                <section>
 
                     <h2>Sal</h2>
-                    <ul>{salAssuntos}</ul>
-                    
+                    <div className={styles.assuntos}>
+                        {salAssuntos}
+                    </div>
                 </section>
             </Container>
             <Footer />

@@ -1,27 +1,13 @@
-/* .temas a{
-    width: 100%;
-
+.assuntos {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 
-    padding-bottom: 5px;
-    padding-top: 10px;
+    width: 100%;
+
     border: 1px solid red;
 }
-
-.temas {
-    width: auto;
-    height: auto;
-    background-color: white;
-    margin-bottom: 5px;
-    cursor: pointer;
-
-    border: 1px solid black;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.509);
-} */
-
 
 
 

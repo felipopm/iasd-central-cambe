@@ -24,7 +24,7 @@ function Sentinela() {
         <>
             <Header />
             <Container>
-                <section className={styles.temas}>
+                <section>
 
                     <div className={styles.comabordagem}>
                         <button className={styles.superficial}>Superficial</button>
@@ -34,7 +34,9 @@ function Sentinela() {
                     <span className={`${styles.abordagem}`} onClick={toggleAbordagem}>V</span>
 
                     <h2>Sentinela</h2>
-                    <ul>{sentinelaAssuntos}</ul>
+                    <div className={styles.assuntos}>       
+                        {sentinelaAssuntos}
+                    </div>
 
 
                     {/* <div className={`${styles.comabordagem} ${semAbordagem ? styles.semabordagem : ''}`}>
