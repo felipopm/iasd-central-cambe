@@ -17,7 +17,7 @@ function AppRoutes() {
             <Routes>
                 <Route path="/ajuda" element={<Ajuda />}></Route>
                 <Route path="/sentinela" element={<Sentinela />}></Route>
-                <Route path="/iasd" element={<Iasd />}></Route>
+                <Route path="/iasd" element={<Home />}></Route>
                 <Route path="/farol" element={<Farol />}></Route>
                 <Route path="/sal" element={<Sal />}></Route>
                 <Route path="/" element={<Home />}></Route>
