@@ -8,7 +8,7 @@ function Farol(){
         <>
             <Header />
             <Container>
-                <h1 className={styles.titulo}>Estou</h1>
+                <h2 className={styles.titulo}>Estou</h2>
                 
             </Container>
             <Footer />
