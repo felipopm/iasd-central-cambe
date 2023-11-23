@@ -13,18 +13,18 @@ function Ajuda() {
                     <section className={styles.contatos}>
                         <div className={styles.emergencia}>
                             <h3>Telefones para emergências</h3>
-                            <p>ACESF – Administração de Cemitérios e Serviços Funerários de Londrina	(43)3323-7275</p>
-                            <p>Ambulância / SAMU	192</p>
-                            <p>Bombeiros / SIATE	193</p>
-                            <p>Defesa Civil	199</p>
-                            <p>Delegacia da Mulher	3322-1633</p>
-                            <p>Disque-Denúncia (Polícia Civil)	197</p>
-                            <p>Disque-Denúncia (Polícia Militar)	181</p>
-                            <p>Guarda Municipal	153</p>
-                            <p>Polícia Civil	147</p>
-                            <p>Polícia Federal	194</p>
-                            <p>Polícia Militar /Radiopatrulha /Trânsito	190</p>
-                            <p>Polícia Rodoviária	(43)3378-1900</p>
+                            <p>ACESF – Administração de Cemitérios e Serviços Funerários de Londrina <span className={styles.funeraria}>(43)3323-7275</span></p>
+                            <p>Ambulância / SAMU <span className={styles.ambulancia}>192</span></p>
+                            <p>Bombeiros / SIATE <span className={styles.bombeiro}>193</span></p>
+                            <p>Delegacia da Mulher	<span className={styles.mulher}>3322-1633</span></p>
+                            <p>Disque-Denúncia (Polícia Civil) <span className={styles.denunciacivil}>197</span></p>
+                            <p>Defesa Civil	<span className={styles.defesacivil}>199</span></p>
+                            <p>Polícia Civil <span className={styles.policiacivil}>147</span></p>
+                            <p>Disque-Denúncia (Polícia Militar) <span className={styles.denunciamilitar}>181</span></p>
+                            <p>Polícia Militar /Radiopatrulha /Trânsito	<span className={styles.policiamilitar}>190</span></p>
+                            <p>Guarda Municipal	<span className={styles.guardamunicipal}>153</span></p>
+                            <p>Polícia Federal	<span className={styles.policiafederal}>194</span></p>
+                            <p>Polícia Rodoviária	<span className={styles.policiarodoviaria}>(43)3378-1900</span></p>
                         </div>
                         <div className={styles.divulga}>
                             <h3>Telefones de meios de divulgação</h3>

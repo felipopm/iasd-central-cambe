@@ -26,6 +26,13 @@
     padding: 10px;
 }
 
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
 @media (max-width: 360px) {
     .home {
         flex-direction: column;

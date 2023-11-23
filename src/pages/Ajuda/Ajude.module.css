@@ -42,5 +42,75 @@
 }
 
 .ajuda p {
+    display: flex;
+    align-items: center;
+
     padding: 5px;
+    
+}
+
+.funeraria {
+    background-color: #808080;
+    color: black;
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-left: 10px;
+}
+
+.ambulancia {
+    background-color: white;
+    color: red;
+    border: 0.5px solid rgba(0, 0, 0, 0.298);
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-left: 10px;
+}
+
+.bombeiro {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-left: 10px;
+}
+
+.mulher {
+    background-color: pink;
+    color: black;
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-left: 10px;
+}
+
+.denunciacivil, .defesacivil, .policiacivil  {
+    background-color: black;
+    color: white;
+    border: 0.5px solid rgba(0, 0, 0, 0.532);
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-left: 10px;
+}
+
+.denunciamilitar, .policiamilitar {
+    background-color: #DAAA88;
+    color: black;
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-left: 10px;
+}
+
+.guardamunicipal {
+    background-color: rgb(29, 29, 212);
+    color: white;
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-left: 10px;
+}
+
+.policiafederal, .policiarodoviaria {
+    background-color: black;
+    color: yellow;
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-left: 10px;
 }
